@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.main{
+  max-width: 1600px;
+  margin: 0 auto;
+
+ 
+}
+.input{
+  padding: 0.5rem 1rem;
+ 
+}
+.btn{
+  padding: 0.5rem 2rem;
+  font-size: 1.4rem;
+
+}
+.box{
+  width: 400px;
+  display: flex;
+  background-color: red;
+  justify-content: space-between;
+}
+
+.list{
+   margin-top: 2rem;
+   line-height: 1.5rem;
+}
+
+.navbar{
+  height: 5rem;
+  background-color: red;
+  padding: 0rem 2rem;
+}
+
+.nav-box{
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.nav-box h1{
+font-size: 2rem;
+}
+
+.car-box{
+ display: flex;
+ justify-content: space-between;
+  border: 2px solid blue;
+  margin: 2rem 0rem;
+}
+
+.car-img {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.meta-info h2{
+ margin-bottom: 1rem;
+}
+
+.car-img img{
+  height: 15rem;
+  width:  30rem;
+  object-fit: cover;
+  
+}
+
+.price{
+ margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  gap: 1rem;
+}
